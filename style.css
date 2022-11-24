@@ -18,9 +18,10 @@ i {
 }
 
 input {
-    width: 0%;
-    transition: 0.2s ease;
+    transform: translateX(10px);
     visibility: hidden;
+    width: 0%;
+    transition: 0.5s ease;
 }
 
 button {
@@ -28,7 +29,7 @@ button {
     transition: transform 0.3s ease;
 }
 
-input.oculto {
+input.visible {
     visibility: visible;
     width: 100px;
     transition: 0.3s ease;
